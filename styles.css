@@ -9,6 +9,7 @@
 
 body {
   width: 100%;
+  min-width: 390px;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
@@ -19,11 +20,6 @@ body {
 }
 
 /* header navbar */
-/* #nav {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-} */
 
 /* header search bar section */
 #search-bar {
@@ -74,29 +70,7 @@ body {
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-
-  body {
-    width: 100%;
-    background-color: #ffffff;
-    color: white;
-  }
-
-  /* header heading section */
-  #heading {
-    margin-top: 100px;
-  }
-
-  /* header navbar */
-
-  /* header search bar section */
-  #search-bar {
-    max-width: 600px;
-  }
-
-  #search-bar input {
-    height: 50px;
-    border-radius: 20px;
-  }
+  /* 
 
   /* meal card */
   #card {
@@ -143,7 +117,7 @@ body {
   }
 
   width: 250px;
-  border-radius: 50%;
+  border-radius: 50px;
 }
 #logo {
   font-weight: 700;
@@ -163,4 +137,9 @@ body {
 
 .fav-btn {
   background-color: #005e08;
+}
+#logo img {
+  height: 50px;
+  margin: 0px 15px;
+  height: 60px;
 }
